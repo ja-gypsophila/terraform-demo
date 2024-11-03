@@ -2,7 +2,7 @@ terraform {
   cloud {
     organization = "PRGMS_COURS_CICD"
     workspaces {
-      name = "CICD-example"
+      name = "nginx-example"
     }
   }
   required_providers {
